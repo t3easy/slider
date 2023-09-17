@@ -16,6 +16,9 @@
     "typo3/cms-frontend": "^9.5 || ^10.4 || ^11.5 || ^12.4"
   },
   "extra": {
+    "branch-alias": {
+      "dev-main": "1.0.x-dev"
+    },
     "typo3/cms": {
       "extension-key": "t3easy_slider"
     }
