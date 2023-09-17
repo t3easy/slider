@@ -1,0 +1,23 @@
+{
+  "name": "t3easy/slider",
+  "type": "typo3-cms-extension",
+  "description": "Slider",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Jan Kiesewetter",
+      "email": "jan@t3easy.de"
+    }
+  ],
+  "require": {
+    "php": "7.4 - 8.2",
+    "typo3/cms-core": "^9.5 || ^10.4 || ^11.5 || ^12.4",
+    "typo3/cms-fluid": "^9.5 || ^10.4 || ^11.5 || ^12.4",
+    "typo3/cms-frontend": "^9.5 || ^10.4 || ^11.5 || ^12.4"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "t3easy_slider"
+    }
+  }
+}
