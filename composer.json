@@ -15,6 +15,9 @@
     "typo3/cms-fluid": "^9.5 || ^10.4 || ^11.5 || ^12.4",
     "typo3/cms-frontend": "^9.5 || ^10.4 || ^11.5 || ^12.4"
   },
+  "suggest": {
+    "typo3/cms-fluid-styled-content": "^9.5 || ^10.4 || ^11.5 || ^12.4"
+  },
   "extra": {
     "branch-alias": {
       "dev-main": "1.0.x-dev"

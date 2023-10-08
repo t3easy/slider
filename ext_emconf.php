@@ -16,6 +16,8 @@ $EM_CONF[$_EXTKEY] = [
             'frontend' => '9.5.0-12.4.99',
         ],
         'conflicts' => [],
-        'suggests' => [],
+        'suggests' => [
+            'fluid_styled_content' => '9.5.0-12.4.99',
+        ],
     ],
 ];
