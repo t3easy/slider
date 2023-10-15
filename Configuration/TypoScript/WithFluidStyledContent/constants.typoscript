@@ -1,13 +1,1 @@
-styles.templates.slider {
-    # cat=content/templates/s1; type=string; label= Path of Fluid Templates for slider content elements
-    templateRootPath =
-    # cat=content/templates/s2; type=string; label= Path of Fluid Partials for slider content elements
-    partialRootPath =
-    # cat=content/templates/s3; type=string; label= Path of Fluid Layouts for slider content elements
-    layoutRootPath =
-}
-
-styles.content.slider {
-    # cat=content/slider/s1; type=options[Foundation,]; label= Variant of the slider to render
-    variant = Foundation
-}
+@import '../Standalone/constants.typoscript'
