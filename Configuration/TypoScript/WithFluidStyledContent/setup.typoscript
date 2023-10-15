@@ -1,0 +1,21 @@
+tt_content.t3easy_slider =< lib.contentElement
+tt_content.t3easy_slider {
+    templateRootPaths {
+        0 = EXT:t3easy_slider/Resources/Private/Templates/
+        1 = {$styles.templates.slider.templateRootPath}
+    }
+
+    partialRootPaths {
+        0 = EXT:t3easy_slider/Resources/Private/Partials/
+        1 = {$styles.templates.slider.partialRootPath}
+        5 = EXT:fluid_styled_content/Resources/Private/Partials/
+    }
+
+    layoutRootPaths {
+        0 = EXT:t3easy_slider/Resources/Private/Layouts/
+        1 = {$styles.templates.slider.layoutRootPath}
+        5 = EXT:fluid_styled_content/Resources/Private/Layouts/
+    }
+}
+
+@import '../slider.typoscript'

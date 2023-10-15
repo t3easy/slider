@@ -1,0 +1,16 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<ul class="orbit-container">
+    <f:for each="{files}" as="file" iteration="iterator">
+        <li class="{f:if(condition: '{iterator.isFirst}', then: 'is-active ')}orbit-slide">
+            <figure class="orbit-figure">
+                <f:image image="{file}"/>
+                <f:if condition="{file.description}">
+                    <figcaption class="orbit-caption">
+                        {file.description -> f:format.nl2br()}
+                    </figcaption>
+                </f:if>
+            </figure>
+        </li>
+    </f:for>
+</ul>
+</html>

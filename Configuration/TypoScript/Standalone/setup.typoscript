@@ -1,0 +1,24 @@
+tt_content.t3easy_slider = FLUIDTEMPLATE
+tt_content.t3easy_slider {
+    templateName = Slider
+    templateRootPaths {
+        0 = EXT:t3easy_slider/Resources/Private/Templates/
+        10 = {$styles.templates.slider.templateRootPath}
+    }
+
+    partialRootPaths {
+        0 = EXT:t3easy_slider/Resources/Private/Partials/
+        10 = {$styles.templates.slider.partialRootPath}
+    }
+
+    layoutRootPaths {
+        0 = EXT:t3easy_slider/Resources/Private/Layouts/
+        10 = {$styles.templates.slider.layoutRootPath}
+    }
+
+    settings {
+        defaultHeaderType = {$styles.content.defaultHeaderType}
+    }
+}
+
+@import '../slider.typoscript'

@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+    elements {
+        t3easy_slider {
+            iconIdentifier = content-textmedia
+            title = LLL:EXT:t3easy_slider/Resources/Private/Language/locallang_ttc.xlf:CType.t3easy_slider.title
+            description = LLL:EXT:t3easy_slider/Resources/Private/Language/locallang_ttc.xlf:CType.t3easy_slider.description
+            tt_content_defValues {
+                CType = t3easy_slider
+            }
+        }
+    }
+    show := addToList(t3easy_slider)
+}

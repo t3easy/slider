@@ -1,0 +1,13 @@
+tt_content.t3easy_slider {
+    templateName = Slider
+    settings {
+        variant = {$styles.content.slider.variant}
+    }
+
+    dataProcessing {
+        10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+        10 {
+            references.fieldName = assets
+        }
+    }
+}
