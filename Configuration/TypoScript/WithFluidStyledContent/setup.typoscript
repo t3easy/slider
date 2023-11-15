@@ -18,4 +18,4 @@ tt_content.t3easy_slider {
     }
 }
 
-@import '../slider.typoscript'
+@import '../slider.setup.typoscript'

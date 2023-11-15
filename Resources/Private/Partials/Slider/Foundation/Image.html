@@ -1,0 +1,12 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<picture>
+  <source {f:if(condition: settings.image.xxl.media, then: 'media="{settings.image.xxl.media}" ')}srcset="{f:uri.image(image: image, width: '{settings.image.xxl.width}', cropVariant: 'xxl')}">
+  <source {f:if(condition: settings.image.xl.media, then: 'media="{settings.image.xl.media}" ')}srcset="{f:uri.image(image: image, width: '{settings.image.xl.width}', cropVariant: 'xl')}">
+  <source {f:if(condition: settings.image.lg.media, then: 'media="{settings.image.lg.media}" ')}srcset="{f:uri.image(image: image, width: '{settings.image.lg.width}', cropVariant: 'lg')}">
+  <source {f:if(condition: settings.image.md.media, then: 'media="{settings.image.md.media}" ')}srcset="{f:uri.image(image: image, width: '{settings.image.md.width}', cropVariant: 'md')}">
+  <source {f:if(condition: settings.image.sm.media, then: 'media="{settings.image.sm.media}" ')}srcset="{f:uri.image(image: image, width: '{settings.image.sm.width}', cropVariant: 'sm')}">
+  <img class="orbit-image" src="{f:uri.image(image: image, width: '{settings.image.fallback.width}', cropVariant: '{settings.image.fallback.cropVariant}')}"
+       alt="{f:if(condition: image.alternative, then: image.alternative, else: image.title)}"
+       title="{f:if(condition: image.title, then: image.title, else: image.alternative)}">
+</picture>
+</html>

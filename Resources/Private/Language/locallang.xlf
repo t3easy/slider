@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:t3easy_slider/Resources/Private/Language/locallang.xlf" date="2023-10-16T10:51:00Z" product-name="t3easy_slider">
+		<header/>
+		<body>
+			<trans-unit id="previousSlide" resname="previousSlide">
+				<source>Previous slide</source>
+			</trans-unit>
+			<trans-unit id="nextSlide" resname="nextSlide">
+				<source>Next slide</source>
+			</trans-unit>
+			<trans-unit id="currentSlide" resname="currentSlide">
+				<source>Current slide</source>
+			</trans-unit>
+			<trans-unit id="slideNoX" resname="slideNoX">
+				<source>Slide number %s</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

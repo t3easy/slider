@@ -1,13 +1,9 @@
-styles.templates.slider {
-    # cat=content/templates/s1; type=string; label= Path of Fluid Templates for slider content elements
-    templateRootPath =
-    # cat=content/templates/s2; type=string; label= Path of Fluid Partials for slider content elements
-    partialRootPath =
-    # cat=content/templates/s3; type=string; label= Path of Fluid Layouts for slider content elements
-    layoutRootPath =
-}
+@import '../slider.constants.typoscript'
 
 styles.content.slider {
-    # cat=content/slider/s1; type=options[Foundation,]; label= Variant of the slider to render
-    variant = Foundation
+    # cat=content/cHeader/h0; type=int[1-5]; label=Default Header type: Enter the number of the header layout to be used by default
+    defaultHeaderType = 2
+
+    # cat=content/cImage/a0; type=options[lazy,eager,auto,]; label=Default settings for browser-native image lazy loading: Can be "lazy" (browsers could choose to load images later), "eager" (load images right away) or "auto" (browser will determine whether the image should be lazy loaded or not)
+    image.lazyLoading = lazy
 }

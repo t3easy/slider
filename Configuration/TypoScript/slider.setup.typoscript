@@ -1,0 +1,39 @@
+tt_content.t3easy_slider {
+    templateName = Slider
+    settings {
+        variant = {$styles.content.slider.variant}
+        image {
+            sm {
+                media =
+                width = 320m
+            }
+            md {
+                media = (min-width: 640px)
+                width = 640m
+            }
+            lg {
+                media = (min-width: 1024px)
+                width = 1024m
+            }
+            xl {
+                media = (min-width: 1200px)
+                width = 1200m
+            }
+            xxl {
+                media = (min-width: 1440px)
+                width = 1440m
+            }
+            fallback {
+                width = 1024m
+                cropVariant = lg
+            }
+        }
+    }
+
+    dataProcessing {
+        10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+        10 {
+            references.fieldName = assets
+        }
+    }
+}

@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:t3easy_slider/Resources/Private/Language/locallang_ttc.xlf" date="2023-07-25T19:39:58Z" product-name="t3easy_slider">
+	<file source-language="en" datatype="plaintext" original="EXT:t3easy_slider/Resources/Private/Language/locallang_ttc.xlf" date="2023-10-16T18:23:46Z" product-name="t3easy_slider">
 		<header/>
 		<body>
 			<trans-unit id="CType.t3easy_slider.title" resname="CType.t3easy_slider.title">
-				<source>Slider/carousel</source>
+				<source>Slider/Carousel</source>
 			</trans-unit>
 			<trans-unit id="CType.t3easy_slider.description" resname="CType.t3easy_slider.description">
 				<source>A horizontal list of images that can be moved automatically or manually.</source>
+			</trans-unit>
+			<trans-unit id="palette.sliderSettings" resname="palette.sliderSettings">
+				<source>Slider settings</source>
+			</trans-unit>
+			<trans-unit id="tx_t3easyslider_autoplay" resname="tx_t3easyslider_autoplay">
+				<source>Autoplay</source>
+			</trans-unit>
+			<trans-unit id="tx_t3easyslider_show_bullets" resname="tx_t3easyslider_show_bullets">
+				<source>Show bullets</source>
+			</trans-unit>
+			<trans-unit id="tx_t3easyslider_label" resname="tx_t3easyslider_label">
+				<source>Label</source>
+			</trans-unit>
+			<trans-unit id="tx_t3easyslider_timer_delay" resname="tx_t3easyslider_timer_delay">
+				<source>Timer delay</source>
 			</trans-unit>
 		</body>
 	</file>

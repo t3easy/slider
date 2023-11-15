@@ -2,8 +2,8 @@
 <nav class="orbit-bullets">
     <f:for each="{files}" as="file" iteration="iterator">
         <button class="{f:if(condition: '{iterator.isFirst}', then: 'is-active')}" data-slide="{iterator.index}">
-            <span class="show-for-sr">Second slide details.</span>
-            <f:if condition="{iterator.isFirst}"><span class="show-for-sr" data-slide-active-label>Current Slide</span></f:if>
+            <span class="show-for-sr"><f:if condition="{file.title}"><f:then>{file.title}</f:then><f:else>{f:translate(key: 'LLL:EXT:t3easy_slider/Resources/Private/Language/locallang.xlf:slideNoX', arguments: '{0:  iterator.cycle}')}</f:else></f:if></span>
+            <f:if condition="{iterator.isFirst}"><span class="show-for-sr" data-slide-active-label>{f:translate(key: 'LLL:EXT:t3easy_slider/Resources/Private/Language/locallang.xlf:currentSlide')}</span></f:if>
         </button>
     </f:for>
 </nav>

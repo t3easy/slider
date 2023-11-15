@@ -1,9 +1,11 @@
 <?php
 
-defined('TYPO3_MODE') or die();
+defined('TYPO3') or die();
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
-    't3easy_slider',
-    'Configuration/PageTs/Slider.tsconfig',
-    'Slider settings'
-);
+(function () {
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
+        't3easy_slider',
+        'Configuration/PageTs/Slider.tsconfig',
+        'Slider settings'
+    );
+})();

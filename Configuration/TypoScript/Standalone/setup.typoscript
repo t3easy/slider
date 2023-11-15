@@ -17,8 +17,11 @@ tt_content.t3easy_slider {
     }
 
     settings {
-        defaultHeaderType = {$styles.content.defaultHeaderType}
+        defaultHeaderType = {$styles.content.slider.defaultHeaderType}
+        media {
+            lazyLoading = {$styles.content.slider.image.lazyLoading}
+        }
     }
 }
 
-@import '../slider.typoscript'
+@import '../slider.setup.typoscript'
