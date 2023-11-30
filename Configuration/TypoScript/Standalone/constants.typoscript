@@ -1,4 +1,4 @@
-@import '../slider.constants.typoscript'
+@import 'EXT:t3easy_slider/Configuration/TypoScript/slider.constants.typoscript'
 
 styles.content.slider {
     # cat=content/cHeader/h0; type=int[1-5]; label=Default Header type: Enter the number of the header layout to be used by default

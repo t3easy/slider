@@ -1,1 +1,1 @@
-@import '../slider.constants.typoscript'
+@import 'EXT:t3easy_slider/Configuration/TypoScript/slider.constants.typoscript'
