@@ -18,4 +18,4 @@ tt_content.t3easy_slider {
     }
 }
 
-@import '../slider.setup.typoscript'
+@import 'EXT:t3easy_slider/Configuration/TypoScript/slider.setup.typoscript'
